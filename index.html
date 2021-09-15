@@ -25,7 +25,6 @@
 						class="font-weight-bold">RONAK</span></h4>
 			</a>
 			<!-- end header logo -->
-
 			<!-- header menu btn -->
 			<button class="header__btn " type="button">
 				<span></span>
@@ -36,7 +35,6 @@
 		</div>
 	</header>
 	<!-- end header -->
-
 	<!-- sidebar -->
 	<div class="sidebar">
 		<div class="sidebarmenu">
@@ -52,12 +50,13 @@
 			<!-- sidebar nav -->
 			<ul class="sidebar__nav">
 				<li type="button" class="sidebar__nav-item" data-toggle="tooltip" data-placement="top"
-					title="Tooltip on top">
+					title="DATE OF BIRTH">
 					<i class="far fa-calendar-alt mr-2"></i> March 24, 2001
 				</li>
 
-				<li class="sidebar__nav-item">
-					<i class="fas fa-map-marker-alt mr-2"></i> Gujarat, India
+				<li type="button" class="sidebar__nav-item" data-toggle="tooltip" data-placement="top"
+				title="ADDRESS">
+					<i class="fas fa-map-marker-alt mr-2"></i>Junagadh, Gujarat, India
 				</li>
 
 				<li class="sidebar__nav-item">
@@ -432,10 +431,12 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
-		$('.owl-carousel').owlCarousel({
-			rtl: false,
+	$('.owl-carousel').owlCarousel({
 			loop: true,
 			margin: 30,
+			autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:false,
 			nav: false,
 			dots: false,
 			responsive: {

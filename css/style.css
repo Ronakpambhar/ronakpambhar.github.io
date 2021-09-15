@@ -1,9 +1,7 @@
 
 body{background-color: #151418;color: #ffffff;font-family: 'Archivo', sans-serif;}
 .pedin{padding-top:50px ;}
-.ped{
-  padding-top: 30px;
-}
+.ped{padding-top: 30px;}
 .main__2{background-color:  #1a191f;padding: 30px 40px 30px 40px;border-radius: 0 0 20px 20px;}
 .tcl{color: #ffd80e;}
 .tcl1{color: #30ADAE !important;}
